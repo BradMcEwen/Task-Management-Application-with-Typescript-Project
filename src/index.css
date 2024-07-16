@@ -1,0 +1,99 @@
+:root {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #EAEDED;
+}
+
+.navbar-nav {
+  width: 100%;
+  justify-content: space-around;
+}
+
+.nav-link {
+  color: #ffffff !important;
+}
+
+.img-fluid {
+  width: 100px;
+  height: auto;
+  max-width: auto;
+}
+
+main {
+  margin-top: 84px;
+}
+
+@media only screen and (min-width: 992px) {
+  main {
+    margin-left: 260px;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.taskcard {
+  width: 20rem;
+  border-radius: 20px;
+  box-shadow: 1em 0 2em rgb(71, 61, 61);
+}
+
+.task-header {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.task-footer {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.notebox {
+  height: 96px;
+  overflow-y: auto;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.card {
+  border-radius: 10px;
+  border: none;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.form-label {
+  font-weight: 500;
+}
+
+.form-control,
+.form-select {
+  border-radius: 5px;
+  box-shadow: none;
+  border: 1px solid #ced4da;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  border-radius: 5px;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
